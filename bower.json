@@ -1,0 +1,24 @@
+{
+  "name": "pages-menu",
+  "homepage": "https://github.com/Wepdevs/pages-menu",
+  "description": "a polymer element that creates a menu from the iron-pages of the page",
+  "main": "pages-menu.html",
+  "keywords": [
+    "polymer",
+    "iron",
+    "pages",
+    "element",
+    "menu"
+  ],
+  "authors": [
+    "Walter Miani"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
