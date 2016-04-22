@@ -20,5 +20,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+   "dependencies": {
+      "iron-pages" : "PolymerElements/iron-pages",
+      "paper-button" : "PolymerElements/paper-button"
+  }
 }
