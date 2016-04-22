@@ -4,7 +4,7 @@ a polymer element that creates a menu from the iron-pages of the page
 every direct child of the iron-pages element should have these attributes:
 - role="page": required
 - name="name": will appear in the label
-- icon="iron-icon-name": from iron icon collection
+- icon="iron-icon-name": from iron icons collection (https://elements.polymer-project.org/elements/iron-icons?view=demo:demo/index.html)
 - order="number" : order of appearance in the menu
 
 element must be registered via element.registration() method
