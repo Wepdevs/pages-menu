@@ -4,6 +4,7 @@ a polymer element that creates a menu from the iron-pages of the page
 la lista dev'essere di questo tipo, ogni elemento 'pagina' deve avere un attributo role ="page", name="qualcosa" (per il label del menu)
 e un icon="nome-iron-icon" se si vuole aggiungere un'icona e un order (per l'ordine di apparizione sul menu).
 
+la registrazione del menu viene fatta dal metodo registration
 
 ```HTML
 <iron-pages id="ironpages" selected="0">
