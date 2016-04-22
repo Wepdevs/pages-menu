@@ -11,13 +11,33 @@ element must be registered via element.registration() method
 
 ```HTML
 <iron-pages id="ironpages" selected="0">
-				<div role="page" name="Login" order="1" icon="info">
+				<div role="page" name="First" order="1" icon="info">
 				</div>
-				<div role="page" name="Languages" order="2" icon="language">
+				<div role="page" name="Second" order="2" icon="language">
 				</div>
-				<div role="page" name="Categories" order="3" icon="maps:local-offer">
+				<div role="page" name="Third" order="3" icon="maps:local-offer">
 				</div> 
-				<div role="page" name="Import" order="4" icon="input">
+				<div role="page" name="Fourth" order="4" icon="input">
 				</div>
 </iron-pages> 
+
+
+<pages-menu id="pagesmenu"></iron-pages-menu> 
+```
+
+...
+
+```JS
+Polymer({
+
+	is: "my-element", 
+
+	
+
+	attached: function(){
+
+		this.$.pagesmenu.registration();
+	}
+
+});
 ```
